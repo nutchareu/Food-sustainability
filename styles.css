@@ -43,7 +43,7 @@ section{padding:72px 0}
 .stack{display:grid;gap:24px}
 .topics{background:var(--soft)}
 .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
-.topic{border-radius:24px;padding:26px;color:#fff}
+.topic{border-radius:24px;padding:26px;text-decoration:none;color:#fff}
 .topic .ic{font-size:2.4rem;display:block;margin-bottom:8px}
 .topic h3{color:inherit;font-size:1.15rem;margin-bottom:6px}
 .topic p{font-size:.95rem;line-height:1.6}
