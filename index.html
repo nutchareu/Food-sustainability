@@ -9,7 +9,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600&family=Prompt:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="illustrations.css">
 </head>
 <body>
 <header class="site"><div class="in">
@@ -21,52 +20,68 @@
 </nav>
 </div></header>
 <main>
-<div class="hero">
-<div class="wrap">
+<div class="hero"><div class="wrap">
 <div>
 <span class="pill">บล็อกความรู้ความยั่งยืนด้านอาหาร</span>
 <h1>อาหารคุณภาพ <em>ดีต่อเรา</em> และดีต่อโลก</h1>
-<p>เกล็ดความรู้เล็กๆ ที่จะพาคุณเข้าใจด้านอาหารมากยิ่งขึ้นว่าอาหารที่เรากินส่งผลต่อสิ่งแวดล้อมอย่างไร พร้อมวิธีเลือกกินและลด food waste ที่ทำได้จริงทุกวัน</p>
+<p class="lead">เกล็ดความรู้เล็กๆ ที่จะพาคุณเข้าใจด้านอาหารมากยิ่งขึ้นว่าอาหารที่เรากินส่งผลต่อสิ่งแวดล้อมอย่างไร พร้อมวิธีเลือกกินและลด food waste ที่ทำได้จริงทุกวัน</p>
 <a class="btn" href="#articles">อ่านบทความล่าสุด</a>
 <a class="btn alt" href="#topics">สำรวจหัวข้อ</a>
 </div>
-<div class="tiles" aria-hidden="true">
-<div class="tile"><svg viewBox="0 0 64 64" role="img" aria-hidden="true"><path d="M32 6C17 8 6 21 8 36c2 13 12 22 24 22s22-9 24-22C58 21 47 8 32 6z" fill="#7FB069"/><path d="M32 6C26 14 24 24 26 34c1 8 3 16 6 24 3-8 5-16 6-24 2-10 0-20-6-28z" fill="#9CC987"/><path d="M32 12v44M32 30c-6-2-11-6-14-12M32 40c6-2 11-6 14-12" stroke="#4C8C3D" stroke-width="3" fill="none" stroke-linecap="round"/></svg></div><div class="tile"><svg viewBox="0 0 64 64" role="img" aria-hidden="true"><g transform="rotate(35 32 34)"><path d="M32 4c-4 2-6 6-5 11M32 4c4 2 6 6 5 11M32 4v11" stroke="#4C8C3D" stroke-width="3.5" stroke-linecap="round" fill="none"/><path d="M23 20c0-4 4-7 9-7s9 3 9 7l-7 40c-.5 2.6-3.5 2.6-4 0z" fill="#F08A24"/><path d="M27 28h5M33 38h5M29 47h4" stroke="#C96A10" stroke-width="2.5" stroke-linecap="round"/></g></svg></div>
-<div class="tile"><svg viewBox="0 0 64 64" role="img" aria-hidden="true"><circle cx="32" cy="37" r="23" fill="#E5543C"/><path d="M16 35c0-8 4-13 10-16" stroke="#fff" stroke-opacity=".55" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M32 12l4.5 7 8-2-4 7 6 5-8.5 1-1.5 7-4.5-5.5-4.5 5.5-1.5-7-8.5-1 6-5-4-7 8 2z" fill="#4C8C3D"/><path d="M32 6v10" stroke="#3A6E2E" stroke-width="3" stroke-linecap="round"/></svg></div><div class="tile"><svg viewBox="0 0 64 64" role="img" aria-hidden="true"><path d="M44 12c-7-2-13 3-17 11L17 43c-4 9 2 17 11 15 9-2 15-8 19-18 3-8 2-22-3-28z" fill="#6B3FA0"/><path d="M24 44c1-8 5-14 10-18" stroke="#fff" stroke-opacity=".35" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M38 8c5-3 11-1 12 5-5 0-9 2-12 6-3-3-3-8 0-11z" fill="#4C8C3D"/></svg></div>
+<div class="hero-media">
+<div class="ph hero-photo"><img src="images/hero-main.jpg" alt="แปลงผักยามเช้า" width="800" height="1000" onerror="this.remove()" decoding="async"></div>
+<div class="ph hero-small"><img src="images/hero-small.jpg" alt="ผักสด" width="300" height="300" onerror="this.remove()" decoding="async"></div>
+<div class="sticker">From farm to table</div>
 </div>
-</div>
-</div>
+</div></div>
+
+<div class="journey"><div class="wrap"><div class="box" aria-label="ขั้นตอนของระบบอาหาร">
+<div class="step s1"><b>1</b><span>การผลิต</span></div>
+<div class="step s2"><b>2</b><span>การแปรรูป</span></div>
+<div class="step s3"><b>3</b><span>การขนส่ง</span></div>
+<div class="step s4"><b>4</b><span>การบริโภค</span></div>
+</div></div></div>
+
 <section id="articles">
 <div class="wrap">
 <div class="head"><h2>บทความล่าสุด</h2><p>อ่านจบใน 5 นาที tips and tricks ที่พร้อมใช้งานได้ทันที</p></div>
 <div class="posts">
-<a class="card feature" href="food-systems.html">
+<a class="feature ph" href="food-systems.html">
+<img src="images/feature.jpg" alt="ตลาดสดและผลผลิตจากเกษตรกร" width="1000" height="700" onerror="this.remove()" decoding="async">
+<div class="shade"></div>
+<div class="txt">
 <span class="tag t-sky">พื้นฐาน</span>
 <h3>Food System คืออะไร และทำไมจึงสำคัญ</h3>
 <p>ก่อนคุยเรื่องความยั่งยืน มาดูก่อนว่าอาหารบนจานของเราเดินทางผ่านอะไรมาบ้าง และทำไมเรื่องนี้จึงสำคัญต่อทุกคน</p>
+</div>
 </a>
 <div class="stack">
-<a class="card" href="article-1.html"><span class="tag t-carrot">อาหารท้องถิ่น</span><h3>กินอาหารจากวัตถุดิบท้องถิ่น ช่วยลด carbon footprint ได้จริงหรือ</h3></a>
-<a class="card" href="plastic-and-food-waste.html"><span class="tag t-tomato">ลด foodwastes และ plastic </span><h3>5 วิธีง่าย ๆ ลดพลาสติกและขยะอาหารที่บ้าน </h3></a>
+<a class="mini" href="article-1.html"><div class="ph" style="--a:#ffc15a;--b:#c96a10"><img src="images/local-food.jpg" alt="วัตถุดิบท้องถิ่น" width="300" height="300" onerror="this.remove()" decoding="async"></div><div><span class="tag t-carrot">อาหารท้องถิ่น</span><h3>กินอาหารจากวัตถุดิบท้องถิ่น ช่วยลด carbon footprint ได้จริงหรือ</h3></div></a>
+<a class="mini" href="plastic-and-food-waste.html"><div class="ph" style="--a:#f58a73;--b:#b8321f"><img src="images/food-waste.jpg" alt="การลดขยะอาหารและพลาสติกในครัว" width="300" height="300" onerror="this.remove()" decoding="async"></div><div><span class="tag t-tomato">ลด foodwastes และ plastic</span><h3>5 วิธีง่าย ๆ ลดพลาสติกและขยะอาหารที่บ้าน</h3></div></a>
 </div>
 </div>
 </div>
 </section>
+
 <section class="topics" id="topics">
 <div class="wrap">
-<div class="head"><h2>Food System: From farm to table </h2><p>เริ่มจากภาพรวมของการผลิตอาหาร แล้วเจาะลึกรายละเอียดทีละขั้นตอน</p></div>
+<div class="head"><h2>Food System: From farm to table</h2><p>เริ่มจากภาพรวมของการผลิตอาหาร แล้วเจาะลึกรายละเอียดทีละขั้นตอน</p></div>
 <div class="grid4">
-<a class="topic a" href="sustainable-agriculture.html"><span class="ic"><svg viewBox="0 0 64 64" role="img" aria-hidden="true"><path d="M32 60V16" stroke="#B98A2E" stroke-width="3" stroke-linecap="round"/><g fill="#E0A63A"><ellipse cx="32" cy="9" rx="4.5" ry="8"/><ellipse cx="23" cy="21" rx="4.5" ry="8" transform="rotate(-30 23 21)"/><ellipse cx="41" cy="21" rx="4.5" ry="8" transform="rotate(30 41 21)"/><ellipse cx="23" cy="34" rx="4.5" ry="8" transform="rotate(-30 23 34)"/><ellipse cx="41" cy="34" rx="4.5" ry="8" transform="rotate(30 41 34)"/><ellipse cx="25" cy="47" rx="4" ry="7" transform="rotate(-30 25 47)"/><ellipse cx="39" cy="47" rx="4" ry="7" transform="rotate(30 39 47)"/></g></svg></span><h3>1. การผลิต</h3><p>การเพาะปลูกและเลี้ยงสัตว์ ตั้งแต่ดิน น้ำ ไปจนถึงฟาร์ม</p></a>
-<a class="topic b" href="food-processing-article.html"><span class="ic"><svg viewBox="0 0 64 64" role="img" aria-hidden="true"><rect x="15" y="9" width="34" height="10" rx="3" fill="#8A5A33"/><path d="M18 19h28v33a7 7 0 0 1-7 7H25a7 7 0 0 1-7-7z" fill="#F4F7EF" stroke="#C96A10" stroke-width="3" stroke-linejoin="round"/><path d="M18 33h28v19a7 7 0 0 1-7 7H25a7 7 0 0 1-7-7z" fill="#E5543C"/><path d="M24 26v5" stroke="#C96A10" stroke-width="3" stroke-linecap="round"/></svg></span><h3>2. การแปรรูป</h3><p>เปลี่ยนวัตถุดิบเป็นอาหารที่พร้อมกินหรือพร้อมขาย</p></a>
-<a class="topic c" href="sustainable-logistics.html"><span class="ic"><svg viewBox="0 0 64 64" role="img" aria-hidden="true"><rect x="5" y="18" width="33" height="26" rx="3" fill="#2ec4b6"/><path d="M38 27h12l9 9v8H38z" fill="#1F8F86"/><path d="M43 31h5l5 5H43z" fill="#DCE5D2"/><circle cx="18" cy="47" r="6.5" fill="#17301f"/><circle cx="49" cy="47" r="6.5" fill="#17301f"/><circle cx="18" cy="47" r="2.5" fill="#fff"/><circle cx="49" cy="47" r="2.5" fill="#fff"/></svg></span><h3>3. การขนส่งและกระจายสินค้า</h3><p>จากแหล่งผลิตสู่ตลาดและร้านค้า</p></a>
-<a class="topic d" href="eating-sustainably.html"><span class="ic"><svg viewBox="0 0 64 64" role="img" aria-hidden="true"><path d="M12 34c-3-11 5-19 15-17 3 7-2 14-15 17z" fill="#7FB069"/><circle cx="37" cy="25" r="8" fill="#E5543C"/><path d="M43 34c0-9 6-14 13-12 0 7-5 12-13 12z" fill="#F08A24"/><path d="M6 34h52c0 15-11 25-26 25S6 49 6 34z" fill="#fff" stroke="#4C8C3D" stroke-width="3.5" stroke-linejoin="round"/><path d="M18 44c4 5 9 7 14 7" stroke="#C9D8BA" stroke-width="3" fill="none" stroke-linecap="round"/></svg></span><h3>4. การบริโภค</h3><p>ที่ผู้คนเลือกซื้อ ปรุง และกิน</p></a>
+<a class="topic a" href="sustainable-agriculture.html"><div class="ph"><img src="images/stage-1-production.jpg" alt="เกษตรกรในแปลงผัก" width="600" height="450" onerror="this.remove()" decoding="async"><span class="num">1</span></div><div class="body"><h3>การผลิต</h3><p>การเพาะปลูกและเลี้ยงสัตว์ ตั้งแต่ดิน น้ำ ไปจนถึงฟาร์ม</p><span class="more">อ่านเพิ่ม →</span></div></a>
+<a class="topic b" href="food-processing-article.html"><div class="ph"><img src="images/stage-2-processing.jpg" alt="การแปรรูปอาหาร" width="600" height="450" onerror="this.remove()" decoding="async"><span class="num">2</span></div><div class="body"><h3>การแปรรูป</h3><p>เปลี่ยนวัตถุดิบเป็นอาหารที่พร้อมกินหรือพร้อมขาย</p><span class="more">อ่านเพิ่ม →</span></div></a>
+<a class="topic c" href="sustainable-logistics.html"><div class="ph"><img src="images/stage-3-transport.jpg" alt="การขนส่งผลผลิต" width="600" height="450" onerror="this.remove()" decoding="async"><span class="num">3</span></div><div class="body"><h3>การขนส่งและกระจายสินค้า</h3><p>จากแหล่งผลิตสู่ตลาดและร้านค้า</p><span class="more">อ่านเพิ่ม →</span></div></a>
+<a class="topic d" href="eating-sustainably.html"><div class="ph"><img src="images/stage-4-consumption.jpg" alt="โต๊ะอาหารครอบครัว" width="600" height="450" onerror="this.remove()" decoding="async"><span class="num">4</span></div><div class="body"><h3>การบริโภค</h3><p>ที่ผู้คนเลือกซื้อ ปรุง และกิน</p><span class="more">อ่านเพิ่ม →</span></div></a>
 </div>
 </div>
 </section>
+
 <section class="about" id="about">
-<div class="wrap"><div class="box">
+<div class="wrap"><div class="row">
+<div class="ph"><img src="images/about.jpg" alt="ชุมชนเกษตร" width="800" height="600" onerror="this.remove()" decoding="async"></div>
+<div class="box">
 <h2>เกี่ยวกับบล็อกนี้</h2>
 <p>อาหารยั่งยืนเป็นเรื่องของทุกคน ทุกบทความอ้างอิงแหล่งข้อมูลที่ตรวจสอบได้ และอธิบายให้เข้าใจง่าย ไม่จำเป็นต้องมีพื้นฐานมาก่อน</p>
+</div>
 </div></div>
 </section>
 </main>

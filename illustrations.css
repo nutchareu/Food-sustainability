@@ -1,0 +1,19 @@
+/* Illustrations that replace the emoji icons. Load AFTER styles.css. */
+
+/* logo: white/lime sprout on the green badge */
+.brand span{display:inline-flex;align-items:center;justify-content:center;padding:5px 8px;vertical-align:middle}
+.brand svg{width:1.3em;height:1.3em;display:block}
+.brand svg path:first-child{stroke:#fff;fill:none}
+.brand svg path:nth-child(2){fill:#b7e35a}
+.brand svg path:nth-child(3){fill:#fff}
+
+/* hero tiles: icon sits on a white disc so it stands out from the coloured tile */
+.tile{line-height:0}
+.tile svg{width:66%;height:66%;padding:10%;display:block;background:#fff;border-radius:50%;box-shadow:0 6px 0 rgba(0,0,0,.14);transition:transform .3s ease}
+.tile:hover svg{transform:rotate(-6deg) scale(1.06)}
+
+/* topic cards */
+.topic .ic{line-height:0;margin-bottom:12px}
+.topic .ic svg{width:60px;height:60px;padding:9px;display:block;background:#fff;border-radius:50%;box-shadow:0 4px 0 rgba(0,0,0,.14)}
+
+@media (prefers-reduced-motion:reduce){.tile svg{transition:none}.tile:hover svg{transform:none}}
